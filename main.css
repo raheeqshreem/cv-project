@@ -1,0 +1,583 @@
+.logo img {
+  width: 30%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.dark{
+background-color: #0000009a;
+color: #fff;
+.footer{
+  color: #000;
+}
+.navbar{
+  color: #000;
+}
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+/**********************************/
+.card7 .row {
+   
+  margin-top: 9rem;
+  
+}
+
+.card7 h1 {
+  
+  font-size: 60px;
+}
+
+.card7 h1 span {
+  color: #fac031;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 22px;
+  font-size: 70px;
+}
+.card7 .card-body{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 100%;
+padding-left: 4%;
+}
+
+.card7 .men-image img{
+width: 80%;
+padding-top: 4%;
+padding-left: 4%;
+}
+.card7 .men-image{
+  text-align: center;
+
+}
+
+    
+.card7 p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+font-size: 20px;
+  line-height: 40px;
+}
+
+.card7 .main-btn {
+  background: #fac031;
+  cursor: pointer;
+  width: fit-content;
+  padding: 2%;
+  
+}
+
+.card7 .main-btn a {
+  color: #fff;
+  
+}
+
+.card7 .main-btn i {
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card7 .main-btn:hover i {
+  transform: translateX(7px);
+}
+/*********************************************************/
+.card8{
+ 
+  padding-top: 10rem ;
+  
+  
+}
+
+.card8 img {
+ width: 90%;
+ margin-top: 8%;
+ 
+}
+.card8 .photo{
+  text-align: center;
+
+}
+
+.card8 .about-text{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 5%;
+}
+
+.card8 h1 span {
+  color: #fac031;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card8 h1 {
+  font-size: 60px;
+ 
+}
+
+.card8 h3 {
+  font-size: 40px;
+  padding-bottom: 3rem;
+}
+
+.card8 p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+font-size: 20px;
+  line-height: 35px;
+
+}
+
+.card8 .about-btn {
+ width: fit-content;
+ padding: 2%;
+ 
+}
+
+/**************************************************************************/
+.menu {
+        margin-top: 10%;
+        margin-bottom: 3%;
+    }
+        
+
+.menu h3 {
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 5rem;
+}
+
+.menu h3 span {
+    color: #fac031;
+    margin-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu h3 span::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #fac031;
+    display: block;
+    position: relative;
+    bottom: 10%;
+}
+
+.menu-icon {
+  color: #fac031;
+  
+}
+
+.card-title {
+  color: #fac031;
+  font-size: xx-large;
+}
+
+
+.card .menu-image img {
+ 
+ object-fit: cover;
+  object-position: center;
+  transition: 0.3s;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+
+
+.card .menu-image:hover img {
+  transform: scale(0.9);
+}
+
+.card{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 3%;
+
+  }
+  
+
+.card p{
+  
+  line-height: 25px;
+  font-size: 15px;
+  
+}
+ 
+ 
+  
+  .nav-item.active {
+      background-color: #fac031;
+  }
+  .nav-item{
+  cursor: pointer;
+  }
+
+
+  .navbar .icon i{
+    padding: 10px;
+    cursor: pointer;
+  }
+  .navbar .icon i.active{
+    background-color: #fac031;
+
+    
+  }
+  .card .menu-icon{
+    color: #fac031;
+  }
+
+  .card .small-card {
+      
+      border-radius: 7px;
+      transition: 0.3s ease margin-left;
+  }
+
+  .card:hover .small-card {
+     margin: auto;}
+
+
+  .card .small-card i {
+     font-size: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 50px;
+      color: black;
+      cursor: pointer;
+      text-shadow: 0 0 6px black;
+      transition: 0.2s;
+      cursor: pointer;
+
+  }
+  .card .btn{
+  
+    width: fit-content;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    
+  }
+  .ca1{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+  }
+
+.ca2{
+  height: 30%;
+}
+.ca3{
+  
+    display: flex;
+    flex-direction: column;
+   gap: 6px;
+  
+  
+}
+  .small-card i:hover {
+      color: red;
+  } 
+
+.icon .active{
+        background-color: #fac031;
+    }
+    /*********************************************************/
+    .titles{
+margin-top: 5%;
+margin-bottom: 5%;
+    }
+
+    .titles h1 {
+        font-size: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    
+    .titles h1 span {
+        margin-left: 15px;
+        color: #fac031;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .titles h1 span::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: #fac031;
+        display: block;
+        position: relative;
+        bottom: 15px;
+    }
+    
+    
+    .card4 .menu-image img{
+        
+text-align: center;
+        border: rgb(66, 65, 65) 5px solid;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+    }
+
+.card4{
+  display: flex;
+margin-bottom: 50px;
+margin-right: 15px;
+margin-left: 15px;
+justify-content: space-around;
+margin-top: 3rem;
+
+}
+
+
+ .card4 .menu-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card4 .menu-image img {
+    width: 390px;
+    transition: 0.3s;
+
+}
+
+.card4 .menu-image:hover img {
+    opacity: .4;
+    transform: scale(1.2);
+    background-color: rgba(0, 0, 0, 0.16);
+    transition: all 1.5s ease;
+filter: blur(5px);
+}
+
+
+
+
+
+   .card4 .menu-image h3 {
+        position: absolute;
+        font-size: 35px;
+        margin-bottom: 190px;
+        color: #000;
+        background-color: #fac031;
+        font-family: polo;
+        z-index: 5;
+        opacity: 0;
+        transition: 0.3s;
+       padding: 3px;
+
+    
+    }
+   .card4 .menu-image:hover h3 {
+        opacity: 1;
+    }
+    .card4 .menu-image p {
+        position: absolute;
+        width: 350px;
+        margin-top: 30px;
+        text-align: center;
+        color: #000000;
+        line-height: 22px;
+        opacity: 0;
+        z-index: 5;
+        transition: 0.3s;
+        font-size: 1.1em;
+    }
+    .card4 .menu-image:hover p {
+        opacity: 1;
+    }
+    .card4 .menu-image .gallary-btn {
+        position: absolute;
+        margin-top: 200px;
+        color: #000000;
+        background: #fac031;
+        padding: 7px 25px;
+        text-decoration: none;
+        opacity: 0;
+        transform: translateY(45px);
+        z-index: 5;
+        transition: 0.3s;
+    }
+
+    .card4 .menu-image:hover .gallary-btn {
+        opacity: 1;
+        transform: translateY(0);
+    
+    }
+    
+    .order {
+        width: 100%;
+        height: 100vh;
+        padding: 70px 0;
+        background-image: url("bg2.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+       
+    }
+    
+    .order-t h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        font-size: 55px;
+        margin-top: 10%;
+        margin-bottom: 3%;
+        
+    }
+    .BTNorder{
+      background-color:#fac031 ;
+      color: #000000;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    
+    .order-t h1 span {
+        color: #fac031;
+        margin-right: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .order-t h1 span::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: #fac031;
+        display: block;
+        position: relative;
+        bottom: 15px;
+    }
+    
+    .card5 .orderform{
+      margin-left: 20%;
+      margin-top: 80px;
+      margin-right: 10%;
+    }
+    .card5 img{
+      margin-left: 20%;
+      
+    }
+    .form-label{
+      font-size: 1.3em;
+    }
+    .card5 .btn {
+      background-color: #fac031;
+      color: #fff;
+      padding: auto;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    ******
+    .row .card6{
+      width: 150px;
+      padding-top: 5%;
+      
+    }
+    .card6 p{
+      padding-top: 2px;
+      text-align: center;
+      font-size: 1.1em;
+
+    }
+    .card6 i{
+      margin-left: 6px;
+      
+    }
+    .card6 .icons{
+      width: 120px;
+      margin-left: 60px;
+    }
+    .card6 h5{
+      margin-top: 10%;
+      text-align: center;
+      margin-bottom: 20%;
+      color: #000;
+      font-size: 1.5em;
+    }
+    .footer{
+      background: #eeeeee;
+      margin-top: 400px;
+      width: 100%;
+    }
+    .small-card2 p{
+      
+text-align: end;
+margin-right: 60px;
+color: #000;
+font-size: 1.4em;
+opacity: 0;
+    }
+    .small-card2 i{
+align-items: center;
+    
+ font-size:xx-large;
+      color: #000;
+    }
+    .small-card2 i:hover p {
+      color: red;
+      opacity: 1;
+      }
+    
+    
+    .small-card2{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .table th{
+      background-color: #fac031;
+    
+    }
+    .table{
+      width: 70%;
+      margin-left: 30px;
+      margin-top: 70px;
+    }
+
+
+    .footer .end {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+  }
+
+
+    .footer .end span:hover {
+      color: #fac031;
+      margin-left: 10px;
+      cursor: pointer;
+  }
+    
